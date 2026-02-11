@@ -1,0 +1,92 @@
+body{
+   /* background-color:  rgb(8, 48, 58); */
+    backgroud-image: url(https://github.com/abhishek622/Project2_FCC.github.io/blob/main/desk_bg.jpg?raw=true);
+}
+#main{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+#survey-form{
+    text-align: justify;
+    background-color: rgba(15, 115, 139, 0.97);
+    padding: 20px 20px;
+    line-height: 1.5;
+    
+}
+
+#description{
+    text-align: center;
+    font-size: 19px;
+    margin: 10px;
+}
+
+#title{
+    text-align: center;
+    font-size: 26px;
+}
+/* mobile screen */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+    body{
+        background-repeat: no-repeat; 
+        background-size: cover;
+        overflow-x: hidden;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    #survey-form{
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+    
+}
+
+/* desktop screen */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    body{
+        background-repeat: no-repeat; 
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    #survey-form{
+        width: 500px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    
+}
+
+.box{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+#submit{
+    background-color: rgb(12, 197, 58);
+    border-radius: 25px;
+    border-style: hidden;
+    color: white;
+    font-weight: 550;
+}
+
+#submit:hover{
+    background-color: rgb(7, 177, 50);
+
+}
+
